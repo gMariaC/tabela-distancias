@@ -2,3 +2,48 @@ table, tr, td{
     border: solid 1px black;
     border-collapse: collapse;
 }
+
+.cidades{
+    background-color: aqua;
+}
+
+.cor{
+    background-color: yellow;
+    color: black;
+}
+
+.rb{
+    background-color: yellow;
+}
+
+.rj{
+    background-color: yellow;
+}
+
+.salva{
+    background-color: yellow;
+}
+
+.sl{
+    background-color: yellow;
+}
+
+.sp{
+    background-color: yellow;
+}
+
+.sina{
+    background-color: yellow;
+}
+
+.tória{
+    background-color: yellow;
+}
+
+.black{
+    background-color: black;
+}
+
+#tabela{
+    width: 450px;
+}
