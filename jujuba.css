@@ -2,6 +2,9 @@ table, tr, td{
     border: solid 1px black;
     border-collapse: collapse;
 }
+td{
+    width: 400px;
+}
 
 .cidades{
     background-color: aqua;
@@ -55,7 +58,6 @@ table, tr, td{
 .re{
     background-color: yellow;
 }
-
-#tabela{
-    width: 450px;
+.Dc{
+    width: 800px;
 }

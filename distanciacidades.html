@@ -4,14 +4,168 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Distância de Cidades</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='jujuba.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
+    <h2 class="Dc">Distância entre capitais brasileiras.</h2>
     <table id="tabela">
+        <tr class="cor">
+            <td class="cidades">CIDADES</td>
+            <td class="larguracity">PORTO ALEGRE</td>
+            <td>PORTO VELHO</td>
+            <td>RECIFE</td>
+            <td>RIO BRANCO</td>
+            <td>RIO DE JANEIRO</td>
+            <td>SALVADOR</td>
+            <td>SÃO LUÍS</td>
+            <td>SÃO PAULO</td>
+            <td>TERESINA</td>
+            <td>VITÓRIA</td>
+            <td class="cidades">CIDADES</td>
+        </tr>
+            <td class="pa">PORTO ALEGRE</td>
+            <td class="black"></td>
+            <td>4066</td>
+            <td>2747</td>
+            <td>3662</td>
+            <td>3779</td>
+            <td>3090</td>
+            <td>3891</td>
+            <td>1109</td>
+            <td>3804</td>
+            <td>2001</td>
+            <td class="pa">PORTO ALEGRE</td>
+        </tr>
+        <tr>
+            <td class="pv">PORTO VELHO</td>
+            <td>3662</td>
+            <td class="black"></td>
+            <td>4712</td>
+            <td>544</td>
+            <td>3473</td>
+            <td>4023</td>
+            <td>4434</td>
+            <td>3070</td>
+            <td>4366</td>
+            <td>3575</td>
+            <td class="pv">PORTO VELHO</td>
+        </tr>
+        <tr>
+            <td class="re">RECIFE</td>
+            <td>3779</td>
+            <td>4712</td>
+            <td class="black"></td>
+            <td>5243</td>
+            <td>2338</td>
+            <td>839</td>
+            <td>1573</td>
+            <td>2660</td>
+            <td>1137</td>
+            <td>1891</td>
+            <td class="re">RECIFE</td>
+       </tr>
+        <tr>
+            <td class="rb">RIO BRANCO</td>
+            <td>4196</td>
+            <td>544</td>
+            <td>5243</td>
+            <td class="black"></td>
+            <td>4007</td>
+            <td>4457</td>
+            <td>4968</td>
+            <td>3604</td>
+            <td>4900</td>
+            <td>4109</td>
+            <td class="rb">RIO BRANCO</td>
+        </tr>
+        <tr>
+            <td class="rj">RIO DE JANEIRO</td>
+            <td>1553</td>
+            <td>3473</td>
+            <td>2338</td>
+            <td>4007</td>
+            <td class="black"></td>
+            <td>1649</td>
+            <td>3015</td>
+            <td>429</td>
+            <td>2579</td>
+            <td>521</td>
+            <td class="rj">RIO DE JANEIRO</td>
+        </tr>
+        <tr>
+            <td class="salva">SALVADOR</td>
+            <td>3090</td>
+            <td>4023</td>
+            <td>839</td>
+            <td>4457</td>
+            <td>1649</td>
+            <td class="black"></td>
+            <td>1599</td>
+            <td>1962</td>
+            <td>1163</td>
+            <td>1202</td>
+            <td class="salva">SALVADOR</td>
+        </tr>
+        <tr>
+            <td class="sl">SÃO LUÍS</td>
+            <td>3891</td>
+            <td>4434</td>
+            <td>1573</td>
+            <td>4968</td>
+            <td>3015</td>
+            <td>1599</td>
+            <td class="black"></td>
+            <td>2970</td>
+            <td>446</td>
+            <td>2607</td>
+            <td class="sl">SÃO LUÍS</td>
+        </tr>
+        <tr>
+            <td class="sp">SÃO PAULO</td>
+            <td>1109</td>
+            <td>3070</td>
+            <td>2660</td>
+            <td>3604</td>
+            <td>429</td>
+            <td>1962</td>
+            <td>2970</td>
+            <td class="black"></td>
+            <td>2792</td>
+            <td>882</td>
+            <td class="sp">SÃO PAULO</td>
+        </tr>
+        <tr>
+            <td class="sina">TERESINA</td>
+            <td>3804</td>
+            <td>4366</td>
+            <td>1137</td>
+            <td>4900</td>
+            <td>2579</td>
+            <td>1163</td>
+            <td>446</td>
+            <td>2792</td>
+            <td class="black"></td>
+            <td>2171</td>
+            <td class="sina">TERESINA</td>
+        </tr>
+        <tr>
+            <td class="tória">VITÓRIA</td>
+            <td>2001</td>
+            <td>3575</td>
+            <td>1891</td>
+            <td>4109</td>
+            <td>521</td>
+            <td>1202</td>
+            <td>2607</td>
+            <td>882</td>
+            <td>2171</td>
+            <td class="black"></td>
+            <td class="tória">VITÓRIA</td>
+        </tr>
         <tr class="cor">
             <td class="cidades">CIDADES</td>
             <td>PORTO ALEGRE</td>
@@ -24,102 +178,7 @@
             <td>SÃO PAULO</td>
             <td>TERESINA</td>
             <td>VITÓRIA</td>
-        </tr>
-            <td class="pa">PORTO ALEGRE</td>
-            <td class="black"></td>
-            <td>4066</td>
-            <td>2747</td>
-            <td>3662</td>
-            <td>3779</td>
-        </tr>
-        <tr>
-            <td class="pv">PORTO VELHO</td>
-            <td>4999</td>
-            <td>3240</td>
-            <td>3662</td>
-            <td></td>
-            <td>4712</td>
-        </tr>
-        <tr>
-            <td class="re">RECIFE</td>
-            <td>297</td>
-            <td>2058</td>
-            <td>3779</td>
-            <td>4712</td>
-            <td></td>
-       </tr>
-        <tr>
-            <td class="rb">RIO BRANCO</td>
-            <td class="black"></td>
-            <td>4007</td>
-            <td>4457</td>
-            <td>4968</td>
-            <td>3604</td>
-            <td>4900</td>
-            <td>4109</td>
-        </tr>
-        <tr>
-            <td class="rj">RIO DE JANEIRO</td>
-            <td>4007</td>
-            <td class="black"></td>
-            <td>1649</td>
-            <td>3015</td>
-            <td>429</td>
-            <td>2579</td>
-            <td>521</td>
-        </tr>
-        <tr>
-            <td class="salva">SALVADOR</td>
-            <td>4457</td>
-            <td>1649</td>
-            <td class="black"></td>
-            <td>1599</td>
-            <td>1962</td>
-            <td>1163</td>
-            <td>1202</td>
-        </tr>
-        <tr>
-            <td class="sl">SÃO LUÍS</td>
-            <td>4968</td>
-            <td>3015</td>
-            <td>1599</td>
-            <td class="black"></td>
-            <td>2970</td>
-            <td>446</td>
-            <td>2607</td>
-        </tr>
-        <tr>
-            <td class="sp">SÃO PAULO</td>
-            <td>3604</td>
-            <td>429</td>
-            <td>1962</td>
-            <td>2970</td>
-            <td class="black"></td>
-            <td>2792</td>
-            <td>882</td>
-        </tr>
-        <tr>
-            <td class="sina">TERESINA</td>
-            <td>4900</td>
-            <td>2579</td>
-            <td>1163</td>
-            <td>446</td>
-            <td>2792</td>
-            <td class="black"></td>
-            <td>2171</td>
-        </tr>
-        <tr>
-            <td class="tória">VITÓRIA</td>
-            <td>4109</td>
-            <td>521</td>
-            <td>1202</td>
-            <td>2607</td>
-            <td>882</td>
-            <td>2171</td>
-            <td class="black"></td>
-        </tr>
-        <tr>
-
+            <td class="cidades">CIDADES</td>
         </tr>
     </table>
 </body>
