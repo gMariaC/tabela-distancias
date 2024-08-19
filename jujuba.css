@@ -44,6 +44,18 @@ table, tr, td{
     background-color: black;
 }
 
+.pa{
+    background-color: yellow;
+}
+
+.pv{
+    background-color: yellow;
+}
+
+.re{
+    background-color: yellow;
+}
+
 #tabela{
     width: 450px;
 }
