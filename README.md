@@ -4,10 +4,10 @@ Projeto criado como parte da disciplina de Fundamentos de Desenvolvimento minist
 
 ## Índice
 
-* [Descrição]()
-* [Tecnologias]()
-* [Referências]()
-* [Autor(a)]()
+* [Descrição](#descrição)
+* [Tecnologias](#tecnologias)
+* [Referências](#referencias)
+* [Autor(a)](#autora)
 ### Descrição
 
 O projeto consiste na composição de uma tabela que conta com capitais brasileiras e a distância entre essas capitais. As capitais constantes nesse projeto são:
@@ -25,6 +25,20 @@ O projeto consiste na composição de uma tabela que conta com capitais brasilei
 
 ## Tecnologias
 
+* HTML
+* CSS3
+* README
+* Git
+* GitHub
+
 ## Referencias
+[Alura](https://www.alura.com.br/artigos/escrever-bom-readme) - Como escrever um README íncrivel no seu GitHub.
 
 ## Autor(a)
+
+Projeto desenvolvido pelo grupo:
+* Maria Clara
+* Ana Karoline
+* Yasmin Faria
+* Yasmin Camilly
+* Geovanna Toledo
