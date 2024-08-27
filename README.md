@@ -23,6 +23,10 @@ O projeto consiste na composição de uma tabela que conta com capitais brasilei
 * Teresina
 * Vitória
 
+### Resultado do projeto.
+
+![Resultado final do projeto]()
+
 ## Tecnologias
 
 * HTML
