@@ -25,7 +25,7 @@ O projeto consiste na composição de uma tabela que conta com capitais brasilei
 
 ### Resultado do projeto.
 
-![Resultado final do projeto]()
+![Resultado final do projeto](img/resultado-final.png)
 
 ## Tecnologias
 
