@@ -27,6 +27,23 @@ O projeto consiste na composição de uma tabela que conta com capitais brasilei
 
 ![Resultado final do projeto](img/resultado-final.png)
 
+#### Tabela
+
+* table - Um conjunto de dados estruturados em linhas e colunas.
+* tr - É usada para definir uma linha em uma tabela.
+
+Veja uma imagem de parte do código, onde é possível identificar o uso dos elementos mencionados acima:
+
+![](img/estrutura-tabela.png)
+
+
+* td - Se trata de uma célula de dados numa tabela.
+
+
+Veja mais uma imagem onde pode-se identificar este outro elemento citado acima:
+
+![](img/estrutura-td.png)
+
 ## Tecnologias
 
 * HTML
