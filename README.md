@@ -44,6 +44,18 @@ Veja mais uma imagem onde pode-se identificar este outro elemento citado acima:
 
 ![](img/estrutura-td.png)
 
+### Estilização
+
+O projeto foi estilizado, utilizando CSS3. Foi criado um arquivo chamado jujuba.css. Neste arquivo, constam configurações de estilo, apresentados a seguir:
+
+* Estilo de cores- A corn de fundo utilizada no projeto foi definida com segue:
+
+``` 
+.rb{
+    background-color: yellow;
+}
+```
+
 ## Tecnologias
 
 * HTML
